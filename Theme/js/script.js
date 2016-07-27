@@ -1,9 +1,9 @@
-$('#kenTable tr').hover(function () {
-    alert('111');
+$('#kenTable td').hover(function () {
+
     $(this).css("background", "blue");
 }, function () {
-    alert('111');
-    $(this).css("background", "red");
+
+    $(this).css("background", "orange");
 });
 
 
